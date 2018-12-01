@@ -1,0 +1,159 @@
+body {
+    margin: 0;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+    overflow-x: hidden;
+    line-height: 2rem;
+    word-spacing: 0.7rem;
+    color: #424242;
+    background: #ebf0f6;
+    animation: 3s fade;
+}
+
+.landing-image {
+    width: 100vw;
+    height: 100vh;
+}
+
+.top-heading,
+.top-phrase {
+    position: absolute;
+    line-height: 2rem;
+    color: teal;
+    font-size: 2em;
+}
+
+.top-heading {
+    top: 20%;
+    width: 400px;
+    left: 50%;
+    margin-left: -200px;
+    font-family: 'Sacramento', cursive;
+    font-size: 5rem;
+    
+}
+
+.top-phrase {
+    top: 40%;
+    width: 400px;
+    left: 50%;
+    margin-left: -200px;
+    font-weight: normal;
+}
+
+h1,
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    color: #66BFBF
+}
+h3, a{
+    color: #11999E
+}
+
+.underline {
+    text-decoration: underline;
+}
+
+.profile{
+    margin: 75px 0;
+}
+.profile-pic{
+    border-radius: 50%;
+}
+.intro{
+    width: 50%;
+    margin:auto;
+}
+hr{
+    border: 5px dotted lightgray;
+    border-bottom: none;
+    width: 50px;
+    margin: 70px auto;
+}
+
+.skill-row{
+    width: 70%;
+    margin: 50px auto 100px;
+
+}
+.web-design{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    float: left;
+    margin-right: 50px;
+}
+.text{
+    text-align: left;
+}
+
+.food{
+    width: 150px;
+    height: 150px;
+    float: right;
+    margin-left: 50px;
+    border-radius: 50%;
+}
+.contact-me{
+    margin: 100px auto;
+}
+
+.footer{
+    margin: 50px auto;
+    width: 50%
+}
+.btn{
+    text-decoration: none;
+    padding: 10px 20px;
+    background: #66BFBF;
+    border-radius: 5px;
+    color: #f1f1f1;
+}
+.btn:hover{
+    background: rgb(121, 199, 199);
+}
+.bottom-container{
+    background: #66BFBF;
+    padding: 50px;
+}
+.footer-link{
+    text-decoration: none;
+    margin: 0 20px;
+}
+.footer-link:hover{
+    color: #f1f1f1;
+}
+.bottom-container p{
+    color: #f1f1f1;
+    font-size: 12px;
+    padding-top: 10px;
+    word-spacing: 0.4rem;
+}
+
+@keyframes fade{
+    from{
+        opacity: 0;
+    }to{
+        opacity: 1;
+    }
+}
+
+@media(max-width:992px){
+    .web-design, .food{
+        float: none;
+        margin: auto 0px;
+    }
+    .text{
+        text-align: center;
+    }
+}
+
+::-webkit-scrollbar{
+    width: 3px;
+}
+::-webkit-scrollbar-track{
+    background: initial
+}
+::-webkit-scrollbar-thumb{
+    background: teal;
+}
