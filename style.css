@@ -2,7 +2,6 @@ body {
     margin: 0;
     text-align: center;
     font-family: 'Merriweather', serif;
-    overflow-x: hidden;
     line-height: 2rem;
     word-spacing: 0.7rem;
     color: #424242;
@@ -11,7 +10,7 @@ body {
 }
 
 .landing-image {
-    width: 100vw;
+    width: 100%;
     height: 100vh;
 }
 
@@ -29,7 +28,7 @@ body {
     left: 50%;
     margin-left: -200px;
     font-family: 'Sacramento', cursive;
-    font-size: 4rem;
+    font-size: 5rem;
     
 }
 
@@ -39,7 +38,7 @@ body {
     left: 50%;
     margin-left: -200px;
     font-weight: normal;
-    font-size: 1.5rem;
+    font-size: 2rem;
 }
 
 h1,
